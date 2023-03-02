@@ -152,7 +152,7 @@
             "critical": 20
         },
         "format": "<span size='x-small' color='#89b4fa'>{capacity}%</span> {icon}",
-        "format-charging": "",
+        "format-charging": "<span size='x-small' rise='1000' color='#89b4fa'>{capacity}%</span> <span color='#f9e2af'></span>",
         "format-plugged": "",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
