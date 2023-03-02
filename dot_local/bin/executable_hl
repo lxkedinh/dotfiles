@@ -1,0 +1,22 @@
+#!/bin/sh
+
+cd ~
+
+# Log WLR errors and logs to the hyprland log
+export HYPRLAND_LOG_WLR=1
+
+# Tell XWayland to use a cursor theme
+export XCURSOR_THEME=Catppuccin-Mocha-Lavender-Cursors
+export XDG_SESSION_DESKTOP=Hyprland
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=Hyprland
+export GDK_BACKEND='wayland,x11'
+
+# Tell QT applications to use wayland backend
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+
+# Set a cursor size
+export XCURSOR_SIZE=28
+
+exec Hyprland
