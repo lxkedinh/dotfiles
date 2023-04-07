@@ -1,1 +1,2 @@
 sync_dir = "~/CPP"
+skip_dir = "CS 3010/*/target|CS 3010/*/.git"
