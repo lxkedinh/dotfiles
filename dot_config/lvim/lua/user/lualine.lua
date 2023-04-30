@@ -7,6 +7,10 @@ lvim.builtin.lualine.on_config_done = function(lualine)
 		left = left_bubble,
 		right = right_bubble,
 	}
+	config.sections.lualine_b[1].separator = {
+		left = "",
+		right = right_bubble,
+	}
 	config.sections.lualine_y[1].separator = {
 		left = left_bubble,
 		right = "",
