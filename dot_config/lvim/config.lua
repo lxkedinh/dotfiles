@@ -1,3 +1,5 @@
-reload("user.plugins")
+require("user.autocommands")
+require("user.languages")
 require("user.options")
-require("user.keymaps")
+require("user.plugins")
+require("user.lualine")
