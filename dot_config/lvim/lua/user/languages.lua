@@ -14,8 +14,10 @@ lvim.builtin.treesitter.ensure_installed = {
 	"rust",
 	"java",
 	"comment",
+	"markdown",
 	"markdown_inline",
 	"regex",
+	"vim",
 }
 
 -- -- generic LSP settings <https://www.lunarvim.org/docs/languages#lsp-support>

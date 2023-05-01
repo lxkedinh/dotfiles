@@ -47,7 +47,7 @@ lvim.builtin.alpha.dashboard.section.header.val = {
 	"   █   █  █      ▄▄           ▄▀   ",
 }
 
--- Windows-specific configuration for PowerShell
+-- Windows-specific configuration
 local is_win32 = vim.fn.has("win32")
 if is_win32 == 1 then
 	-- Enable powershell as your default shell
@@ -59,4 +59,5 @@ if is_win32 == 1 then
 		let &shellpipe = '1>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode'
 		set shellquote= shellxquote=
   ]])
+	lvim.transparent_window = false
 end
