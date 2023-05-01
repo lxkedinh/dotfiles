@@ -56,6 +56,9 @@ formatters.setup({
 		-- extra_args = { "--print-width", "100" },
 		-- filetypes = { "typescript", "typescriptreact" },
 	},
+	{
+		name = "google_java_format",
+	},
 })
 
 local linters = require("lvim.lsp.null-ls.linters")
