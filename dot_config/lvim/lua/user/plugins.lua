@@ -44,12 +44,7 @@ lvim.plugins = {
 		"folke/noice.nvim",
 		dependencies = {
 			"MunifTanjim/nui.nvim",
-			{
-				"rcarriga/nvim-notify",
-				config = function()
-					background_colour = mocha_colors.base
-				end,
-			},
+			"rcarriga/nvim-notify",
 		},
 		config = function()
 			require("noice").setup({
@@ -79,3 +74,7 @@ lvim.plugins = {
 		end,
 	},
 }
+
+require("notify").setup({
+	background_colour = "#000000",
+})
