@@ -44,7 +44,12 @@ lvim.plugins = {
 		"folke/noice.nvim",
 		dependencies = {
 			"MunifTanjim/nui.nvim",
-			"rcarriga/nvim-notify",
+			{
+				"rcarriga/nvim-notify",
+				config = function()
+					background_colour = mocha_colors.base
+				end,
+			},
 		},
 		config = function()
 			require("noice").setup({
