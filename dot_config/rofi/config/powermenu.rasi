@@ -5,7 +5,7 @@ configuration {
     disable-history:                false;
     click-to-exit: 		            true;
     location:                       4;
-    font:			                "FiraCode Nerd Font Mono 20";
+    font:			                "Symbols Nerd Font Mono 20";
 }
 
 @import "colors.rasi"
@@ -94,7 +94,7 @@ mainbox {
     children:                       [ listview ];
     spacing:                        15px;
     padding:                        15px;
-    font:			                "FiraCode Nerd Font Mono 20";
+    font:			                "Symbols Nerd Font Mono 20";
 }
 
 element {
@@ -117,7 +117,7 @@ element-icon {
 element-text {
     background-color: 		        inherit;
     text-color:       		        inherit;
-    font:			                "FiraCode Nerd Font Mono 20";
+    font:			                "Symbols Nerd Font Mono 20";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

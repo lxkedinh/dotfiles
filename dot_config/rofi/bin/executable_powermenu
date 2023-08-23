@@ -26,11 +26,11 @@ else
 		# suspend=""
 		# logout=""
 #   Section 2
-		shutdown="襤"
-		reboot="ﰇ"
-		lock=""
-		suspend="鈴"
-		logout=""
+		shutdown=""
+		reboot=""
+		lock=""
+		suspend=""
+		logout=""
 
 
 	else
