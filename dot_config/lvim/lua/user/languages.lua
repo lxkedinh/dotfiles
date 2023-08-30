@@ -5,6 +5,7 @@ lvim.builtin.treesitter.ensure_installed = {
 	"bash",
 	"c",
 	"javascript",
+	"dart",
 	"json",
 	"lua",
 	"python",
@@ -46,6 +47,7 @@ end, lvim.lsp.automatic_configuration.skipped_servers)
 --   --Enable completion triggered by <c-x><c-o>
 --   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
 -- end
+require("lspconfig").dartls.setup({})
 
 -- linters and formatters <https://www.lunarvim.org/docs/languages#lintingformatting>
 local formatters = require("lvim.lsp.null-ls.formatters")
@@ -59,6 +61,7 @@ formatters.setup({
 	{
 		name = "google_java_format",
 	},
+	{ name = "dart_format" },
 })
 
 local linters = require("lvim.lsp.null-ls.linters")

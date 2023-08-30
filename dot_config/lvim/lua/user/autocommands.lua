@@ -6,3 +6,12 @@
 --     require("nvim-treesitter.highlight").attach(0, "bash")
 --   end,
 -- })
+
+-- autocommands for changing some colors to my preferences
+vim.api.nvim_create_autocmd("ColorScheme", {
+	pattern = "*",
+	callback = function()
+		vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { fg = "#b4befe" })
+		vim.api.nvim_set_hl(0, "NoiceCmdlinePopupTitle", { fg = "#74c7ec" })
+	end,
+})

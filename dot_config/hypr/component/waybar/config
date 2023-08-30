@@ -70,7 +70,7 @@
             "1":"",
             "2":"",
             "3":"",
-            "4":"<span font_family='FontAwesome' size='x-small'></span>",
+            "4":"",
             "5":"",
             "6":"",
             "7":"7",
@@ -120,7 +120,7 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
+        // "timezone": "America/Los_Angeles",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "interval": 60,
         "format": "{:%H:%M}",
@@ -151,7 +151,7 @@
             "warning": 50,
             "critical": 20
         },
-        "format": "<span size='x-small' color='#89b4fa'>{capacity}%</span> {icon}",
+        "format": "<span size='x-small' color='#89b4fa' rise='2000'>{capacity}%</span> {icon}",
         "format-charging": "<span size='x-small' rise='1000' color='#89b4fa'>{capacity}%</span> <span color='#f9e2af'></span>",
         "format-plugged": "",
         // "format-good": "", // An empty format will hide the module

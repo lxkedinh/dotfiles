@@ -1,6 +1,7 @@
 * {
-  font-family: FiraCode Nerd Font Mono, FontAwesome6Brands, FontAwesome6Free,
-    monospace;
+  font-family:
+    Fira Code Regular,
+    Symbols Nerd Font Mono monospace;
 }
 
 window#waybar {
@@ -12,8 +13,8 @@ window#waybar {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
-  margin-left: 25px;
-  font-size: 24px;
+  margin-left: 10px;
+  font-size: 16px;
 }
 #workspaces button {
   background-color: #fff;
@@ -21,9 +22,6 @@ window#waybar {
   margin-right: 10px;
   padding-top: 4px;
   padding-bottom: 2px;
-  padding-right: 10px;
-  padding-left: 10px;
-  font-weight: bolder;
   color: #cba6f7;
 }
 
@@ -191,12 +189,10 @@ window#waybar {
     rgba(203, 166, 247, 1) 64%,
     rgba(202, 158, 230, 1) 100%
   );
-  margin-right: 25px;
   color: #fff;
   background-size: 300% 300%;
   animation: gradient 20s ease infinite;
   font-size: 15px;
-  padding-top: 5px;
   padding-right: 21px;
   font-weight: bolder;
   padding-left: 20px;
@@ -210,7 +206,7 @@ window#waybar {
   background-color: #fff;
   color: #a6e3a1;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -264,6 +260,9 @@ window#waybar {
   font-weight: bold;
   background-color: #f2cdcd;
   color: #fff;
+  font-size: 14px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #network {

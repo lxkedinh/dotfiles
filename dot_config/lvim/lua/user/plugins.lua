@@ -3,6 +3,9 @@ local mocha_colors = require("catppuccin.palettes").get_palette("mocha")
 
 lvim.plugins = {
 	{
+		"tpope/vim-fugitive",
+	},
+	{
 		"folke/trouble.nvim",
 		cmd = "TroubleToggle",
 	},
